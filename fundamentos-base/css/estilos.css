@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc; 
+}
+
+header {
+    background-color: #034e16; 
+    padding: 16px;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+   
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 40px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #ffffff; 
+    margin: 5px 0;
+    font-size: 20px; 
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    background-color: #63d406; /* bg-cyan-500 */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px; 
+    text-decoration: none;
+    
+    /* mostrar como mantiene el inline pero deja aplicar margentes */
+}
+
+header a:hover {
+    background-color: #14b63c; 
+}
+
+header .external-links a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+/* Section styles */
+.line-green {
+    background-color: #63d406;
+    height: 5px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 40px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Navegación */
+.navegacion a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.navegacion {
+    margin-top: 20px;
+}
+
+/* Formulario */
+form {
+    background-color: #f3f4f6; 
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    font-weight: bold;
+    font-size: 24px; /* 1.5rem converted to px */
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    font-size: 16px; 
+    margin-top: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #63d406;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin:20px auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4ee229; /* hover:bg-cyan-600 */
+}
+
+
+
+/* Tecnologías */
+#tecnologias p {
+    font-size: 20px; /* 1.25rem converted to px */
+    margin-bottom: 10px;
+}
