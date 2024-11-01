@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mercado Liebre</title>
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/estilos.css">
+
+   <!-- Font Awesome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- FAVICON -->
+   <link rel="shortcut icon" href="img/favicon-ML.png" type="image/x-icon">
+
+</head>
+
+<body>
+   <header>
+      <a href="index.html">
+         <h1>Mercado Liebre</h1>
+      </a>
+
+      <nav>
+         <a href="index.html">inicio</a>
+         <a href="#">nosotros</a>
+         <a href="#">productos</a>
+         <a href="#">contacto</a>
+      </nav>
+
+      <a href="#" class="icono">
+         <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+
+      <!-- Ventana Modal -->
+      <div id="carrito">
+         <div id="modalCarrito" class="modal">
+            <div class="modal-content">
+               <span class="close">X</span>
+               <table id="lista-carrito">
+                  <thead>
+                      <tr>
+                          <th>Imagen</th>
+                          <th>Nombre</th>
+                          <th>Precio</th>
+                          <th>Cantidad</th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody></tbody>
+              </table>
+              
+              <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+            </div>
+         </div>
+
+      </div>
+
+   </header>
+
+
+
+
+
+   <main>
+      <h2>productos destacados</h2>
+      <div id="lista-cursos" class="container-flex">
+         <!-- Producto 1 -->
+         <div class="producto">
+            <img src="img/1.jpg" alt="teclado">
+            <div class="info">
+               <h3>Teclado Inalambrico</h3>
+               <p>$1000 <span>10% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="1">Agregar</a>
+            </div>
+         </div>
+         <!-- Producto 2 -->
+         <div class="producto">
+            <img src="img/2.jpg" alt="cafetera">
+            <div class="info">
+               <h3>Cafetera Moulinex</h3>
+               <p>$5000 <span>25% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="2">Agregar</a>
+            </div>
+         </div>
+
+         <!-- Producto 3 -->
+
+         <div class="producto">
+            <img src="img/3.jpg" alt="Macbook">
+            <div class="info">
+               <h3>Mackboo pro 2024</h3>
+               <p>$50000 <span>30% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="3">Agregar</a>
+            </div>
+         </div>
+
+         <!-- Producto 4 -->
+
+         <div class="producto">
+            <img src="img/4.jpg" alt="mouse">
+            <div class="info">
+               <h3>Mouse Logitech</h3>
+               <p>$3000 <span>5% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="4">Agregar</a>
+            </div>
+         </div>
+
+         <!-- Producto 5 -->
+
+
+         <div class="producto">
+            <img src="img/5.jpg" alt="Codificador">
+            <div class="info">
+               <h3>Codificador Sony</h3>
+               <p>$20000 <span>20% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="5">Agregar</a>
+            </div>
+         </div>
+
+         <!-- Producto 6 -->
+
+
+         <div class="producto">
+            <img src="img/6.jpg" alt="Televisor">
+            <div class="info">
+               <h3>Televisor 55 pulgadas</h3>
+               <p>$70000 <span>10% OFF</span></p>
+               <a class="agregar-carrito" href="#" data-id="6">Agregar</a>
+            </div>
+         </div>
+
+      </div>
+   </main>
+
+   <footer>
+      <p>Todos los derechos Reservados &copy; - 2024 - CFP20</p>
+      <div class="redes-sociales">
+         <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+         <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+      </div>
+   </footer>
+
+
+  <script src="js/modal.js"></script>
+  <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
